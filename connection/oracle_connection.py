@@ -1,6 +1,7 @@
 import cx_Oracle
 import sqlalchemy
 import pandas as pd
+cx_Oracle.init_oracle_client(lib_dir="/Users/hathanhtran/Downloads/instantclient_19_8")
 
 
 def conn_engine(user, passwd, host, sid):
